@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/main
 :root {
       --noir: #0a0a0a;
       --rouge: #c0392b;
@@ -501,7 +498,6 @@
     }
 
     /* ===== MODALES ===== */
-
     .modal {
       display: none;
       position: fixed;
