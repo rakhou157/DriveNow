@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
@@ -36,6 +35,17 @@
   <div class="section-header">
     <span class="section-tag">✦ Voitures de Luxe</span>
     <h2>CATALOGUE VENTE 2024</h2>
+    <p class="section-subtitle">Découvrez notre sélection exclusive</p>
+  </div>
+
+  <!-- Filtres -->
+  <div class="filters">
+    <button onclick="filterCars('all')">Tous</button>
+    <button onclick="filterCars('mercedes')">Mercedes</button>
+    <button onclick="filterCars('bmw')">BMW</button>
+  </div>
+
+  <!-- Catalogue -->
   </div>
   <div class="cars-grid" id="vente-grid"></div>
 </section>
@@ -128,6 +138,48 @@
 
 <!-- FOOTER -->
 <footer>
+  <div class="footer-container">
+
+    <!-- Logo + description -->
+    <div class="footer-col">
+      <div class="logo">DRIVENOW</div>
+      <p>
+        L’excellence automobile à portée de main. Découvrez les véhicules les plus prestigieux du marché.
+      </p>
+    </div>
+
+    <!-- Navigation -->
+    <div class="footer-col">
+      <h4>Navigation</h4>
+      <a href="#voitures">Catalogue</a>
+      <a href="#panier">Panier</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Contact -->
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p>Email : contact@drivenow.com</p>
+      <p>Tél : +221 77 000 00 00</p>
+      <p>Dakar, Sénégal</p>
+    </div>
+
+    <!-- Réseaux -->
+    <div class="footer-col">
+      <h4>Suivez-nous</h4>
+      <div class="socials">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">WhatsApp</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2024 DRIVENOW — Tous droits réservés</p>
+  </div>
+</footer>
   <div class="logo">SEN<span style="color:var(--rouge)">AUTO</span></div>
   <p>© 2024 SenAuto — Tous droits réservés</p>
   <p>Dakar, Sénégal</p>
