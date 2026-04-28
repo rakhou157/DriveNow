@@ -507,6 +507,8 @@
       height: 100%;
       background-color: rgba(0, 0, 0, 0.6);
         backdrop-filter: blur(5px);
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(5px);
     }
 
     @keyframes fadeIn {
