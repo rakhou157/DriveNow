@@ -1,4 +1,4 @@
- Projet Collaboratif Groupe 
+ Projet Collaboratif Groupe SenAuto
 
  Présentation
 Ce projet a été réalisé dans le cadre d’un examen pratique visant à simuler un environnement professionnel de développement collaboratif avec Git et GitHub.
